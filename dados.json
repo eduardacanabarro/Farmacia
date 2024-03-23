@@ -1,0 +1,60 @@
+{
+  "Clientes": [
+    {
+      "id": 23,
+      "nome": "duda",
+      "endereco": "sao leopoldo",
+      "email": "eduardacanabarro37@gmail.com",
+      "telefone": 999999999
+    },
+    {
+      "id": 90,
+      "nome": "vitor",
+      "endereco": "rs",
+      "email": "vitor@gmail.com",
+      "telefone": 333333333
+    }
+  ],
+  "Fornecedores": [
+    {
+      "id": 237,
+      "nome": "feliperemedios",
+      "endereco": "sao leopoldo",
+      "telefone": 999999988
+    },
+    {
+      "id": 190,
+      "nome": "farmaamanda",
+      "endereco": "RS",
+      "telefone": 333312333
+    }
+  ],
+  "Medicamentos": [
+    {
+      "id": 272,
+      "nome": "ibuprofeno",
+      "fabricante": "farmaamanda",
+      "quantidade": 34
+    },
+    {
+      "id": 272,
+      "nome": "ibupril",
+      "fabricante": "farmaamanda",
+      "quantidade": 30
+    }
+  ],
+  "Vendas": [
+    {
+      "id": 282,
+      "data": 120523,
+      "idMedicamento": 272,
+      "idCliente": 23
+    },
+    {
+      "id": 82,
+      "data": 180523,
+      "idMedicamento": 272,
+      "idCliente": 90
+    }
+  ]
+}
